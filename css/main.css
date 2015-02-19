@@ -1,0 +1,217 @@
+body {
+  background: #E4E4E4 url(../images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Raleway, sans-serif;
+  color: #212123;
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+h1, h2 {
+  font-weight: 700;
+}
+header {
+  height: 500px;
+}
+header h4 {
+  line-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 150px;
+}
+header h1 {
+  line-height: 30px;
+  font-size: 72px;
+  letter-spacing: 1px;
+}
+.border {
+  z-index: 45;
+  height: 259px;
+  text-align: center;
+}
+.border .arrow {
+  z-index: 48;
+  width: 90px;
+  height: 90px;
+  border-style: none;
+  border-color: transparent;
+  -webkit-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-19,45);
+  -ms-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-19,45);
+  -o-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-19,45);
+  transform: matrix(0.7071,-0.7071,0.7071,0.7071,-19,45);
+  position: relative;
+  left: 545px;
+  background: #FFFFFF url(../images/down_arrow1.png) no-repeat center center;
+}
+.border .arrow.bottom {
+  margin-top: 155px;
+}
+.border .arrow.top {
+  margin-top: -76px;
+}
+.border-01 {
+  background: transparent url(../images/border01.png) no-repeat center bottom;
+}
+.border-02 {
+  background: transparent url(../images/border02.png) no-repeat center bottom;
+}
+section {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+section.first {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #FFFFFF;
+}
+section h2 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+section h3 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 0;
+}
+section .music {
+  margin-top: 40px;
+}
+section.second {
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+section.second p {
+  margin-top: 120px;
+  font-size: 16px;
+}
+section .events {
+  margin-top: 40px;
+}
+section .events .single {
+  background-color: #F0F0F0;
+  margin-top: 10px;
+}
+section .events .single .date {
+  padding: 10px 0 15px 0;
+  font-family: Montserrat, sans-serif;
+  background-color: #212123;
+  line-height: 46px;
+  font-size: 46px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section .events .single .date .main {
+  padding: 0;
+  line-height: 46px;
+  font-size: 46px;
+}
+section .events .single .date .sub {
+  padding: 0;
+  line-height: 12px;
+  font-size: 12px;
+}
+section .events .single .party {
+
+}
+section .events .single .party .main {
+  text-align: left;
+  line-height: 30px;
+  font-size: 30px;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+section .events .single .party .sub {
+  text-align: left;
+  line-height: 14px;
+  font-size: 14px;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+.divider {
+  background: #FFFFFF url(../images/divider.png) no-repeat center center;
+  height: 30px;
+}
+section.contact {
+  background: #FFFFFF;
+  padding-top: 70px;
+  padding-bottom: 140px;
+}
+section .contact-part {
+  margin-top: 60px;
+}
+section .contact-part .info {
+  margin-top: 15px;
+  text-align: center;
+}
+section .contact-part .info .title {
+  font-weight: 700;
+}
+section .contact-part .social .icon {
+  z-index: 506;
+  width: 43px;
+  height: 43px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #212123;
+  -webkit-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-10,24);
+  -ms-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-10,24);
+  -o-transform: matrix(0.7071,-0.7071,0.7071,0.7071,-10,24);
+  transform: matrix(0.7071,-0.7071,0.7071,0.7071,-10,24);
+  position: relative;
+  margin-left: 17px;
+}
+section .contact-part .social {
+  border-left: 1px solid #212123;
+  border-right: 1px solid #212123;
+  height: 90px;
+}
+section .contact-part .social .icon.twitter {
+  background: #FFFFFF url("../images/icons/icon_twitter_01.png") no-repeat center center;
+}
+section .contact-part .social .icon.twitter:hover {
+  background: #212123 url("../images/icons/icon_twitter_02.png") no-repeat center center;
+}
+section .contact-part .social .icon.facebook {
+  background: #FFFFFF url("../images/icons/icon_fb_01.png") no-repeat center center;
+}
+section .contact-part .social .icon.facebook:hover {
+  background: #212123 url("../images/icons/icon_fb_02.png") no-repeat center center;
+}
+section .contact-part .social .icon.instagram {
+  background: #FFFFFF url("../images/icons/icon_instagram_01.png") no-repeat center center;
+}
+section .contact-part .social .icon.instagram:hover {
+  background: #212123 url("../images/icons/icon_instagram_02.png") no-repeat center center;
+}
+section .contact-part .social .icon.soundcloud {
+  background: #FFFFFF url("../images/icons/icon_soundcloud_01.png") no-repeat center center;
+}
+section .contact-part .social .icon.soundcloud:hover {
+  background: #212123 url("../images/icons/icon_soundcloud_02.png") no-repeat center center;
+}
+footer {
+  text-align: center;
+  background: #E4E4E4;
+  margin-top: -255px;
+  padding-top: 155px;
+  padding-bottom: 100px;
+  color: #212123;
+  line-height: 14px;
+}
+footer .title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+footer .sub {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
